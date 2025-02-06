@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.h1{
+    font-family: 'Dancing Script', cursive;
+}
+
+body{
+    background: url(coffee5.webp) no-repeat;
+    background-size: 100%;
+    background-color: #dfd8c8; 
+}
+header{
+    position: fixed;
+    top:0;
+    width:100%;
+    background:#41444b ;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    z-index: 1000;
+    font-size: 1.4rem;
+    z-index: 1000;
+}
+
+nav a{
+    margin:15px;
+    font-weight: 500;
+    transition: color 0.3s;
+    color: white;
+    font-size: medium;
+    padding-right: 60px;
+}
+nav a:hover{
+    color:#ffcc80;
+}
+.hero
+{
+    margin-top: 60px;
+    text-align: center;
+    padding:80px 80px;
+    padding-bottom: 100px;
+    color: #000000;
+}
+.hero {
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: "Dancing Script", cursive;
+
+}
+
+.hero button {
+    background: #57331e;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.hero button:hover {
+    background: #ffcc80;
+}
+.menu {
+    padding: 180px 40px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+
+}
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 0.2fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.menu-item1 {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.menu-item1 img {
+    width: 100%;
+    border-radius: 10px;
+    height: 40%;
+}
+
+.menu p{
+    font-size: 15px;
+}
+.contact form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 0.5rem;
+
+}
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.contact button {
+    background: #6f4e37;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.contact button:hover {
+    background: #5d4037;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #52575d;
+    color: white;
+    font-size: 1rem;
+}
+.logo1{
+    font-size: 1.5rem;
+    padding-left: 150px;
+}
+.about{
+    padding-top: 0px;
+    color:#000000;
+    font-size: large;
+    padding-left: 30px;
+}
+.about1{
+    
+    letter-spacing: 0.8px;
+    padding-left: 200px;
+    padding-right: 180px;
+
+
+}
+.h13 {
+ font-size: 300%;
+}
+.h14 {
+    font-size: 300%;
+   }
+.h15 {
+    font-size: 300%;
+   }
